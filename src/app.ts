@@ -2,10 +2,6 @@ export async function twice(x): Promise<number> {
   return x * 2;
 }
 
-export async function add(x, y): Promise<number> {
-  return x + y;
-}
-
 async function main(): Promise<void> {
   console.log("poyo");
 }
