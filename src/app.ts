@@ -1,3 +1,7 @@
+export async function twice(x): Promise<number> {
+  return x * 2;
+}
+
 async function main(): Promise<void> {
   console.log("poyo");
 }
