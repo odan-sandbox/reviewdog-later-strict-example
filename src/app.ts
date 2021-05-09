@@ -2,7 +2,7 @@ export async function twice(x): Promise<number> {
   return x * 2;
 }
 
-export async function add(x, y): Promise<number> {
+export async function add(x: number, y): Promise<number> {
   return x + y;
 }
 
