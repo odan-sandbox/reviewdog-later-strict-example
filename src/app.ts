@@ -7,7 +7,7 @@ export async function triple(x): Promise<number> {
 }
 
 export async function badFunc(): Promise<string> {
-  return await Promise.resolve("poyo");
+  return Promise.resolve("poyo");
 }
 
 async function main(): Promise<void> {
