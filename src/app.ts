@@ -1,9 +1,5 @@
-export async function twice(x): Promise<number> {
+export async function twice(x: number): Promise<number> {
   return x * 2;
-}
-
-export async function triple(x): Promise<number> {
-  return x * 3;
 }
 
 export async function badFunc(): Promise<string> {
